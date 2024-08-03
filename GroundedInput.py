@@ -43,7 +43,7 @@ output_dir = 'path_to_save_defected_images'  # Directory to save generated defec
 os.makedirs(output_dir, exist_ok=True)
 
 # Iterate over train and test directories
-for split in ['train', 'test']:
+for split in ['train', 'test']: 
     image_dir = os.path.join(base_dir, split)
     
     for file_name in os.listdir(image_dir):
